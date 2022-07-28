@@ -1,0 +1,33 @@
+.clock {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  padding: 20px;
+}
+
+.clock h1 {
+  font-size: 3rem;
+}
+
+.clock h2 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .clock h1 {
+    font-size: 2rem;
+  }
+
+  .clock h2 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .clock h1 {
+    font-size: 1rem;
+  }
+  .clock h2 {
+    font-size: 0.7rem;
+  }
+}

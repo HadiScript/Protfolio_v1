@@ -1,0 +1,15 @@
+.sliderMobile {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+
+  
+.itemCards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
